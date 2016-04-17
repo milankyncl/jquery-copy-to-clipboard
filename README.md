@@ -39,9 +39,14 @@ $(document).ready(function() {
 - Add data-clipboard attribute to any HTML element, executes on click.
 
 ```html
-<button data-clipboard="Text to copy.">Copy me!</button>
+<button data-clipboard-text="Text to copy.">Copy me!</button>
 ```
 
+- or with jQuery selector...
+
+```html
+<button data-clipboard-target=".element">Copy another element's value!</button>
+```
 
 ### 4. More information
 
