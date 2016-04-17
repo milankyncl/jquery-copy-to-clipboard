@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery - Copy to clipboard plugin</title>
+    <link href="demo.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="../jquery.copy-to-clipboard.js"></script>
+</head>
+<body>
+<a href="https://github.com/mmkyncl"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+<div class="wrapper">
+    <div class="header">
+        <h1 class="brand-name">jQuery - Copy to clipboard plugin</h1>
+        <p class="slogan">Easy way to Copy text from any type of element.</p>
+        <ul class="menu">
+            <li><a href="https://github.com/mmkyncl/jquery-copy-to-clipboard">Github project page</a></li>
+            <li><a href="https://github.com/mmkyncl/jquery-copy-to-clipboard/archive/master.zip">Download project</a></li>
+        </ul>
+    </div>
+        <div class="content">
+        <div class="example">
+            <h2>Data-clipboard-text example</h2>
+            <p>Add "data-clipboard-text" to anny element, click on it will execute the copy command on text with attribute value.</p>
+            <p class="demo">
+                <input type="submit" value="Copy me!" data-clipboard-text="Some text to copy..."/>
+            </p>
+            <p class="try-it">
+                <span>You can try it here.</span>
+                <br>
+                <input type="text" />
+            </p>
+        </div>
+
+        <div class="example">
+            <h2>Data-clipboard-target example</h2>
+            <p>Add "data-clipboard-target" to anny element, click on it will execute the copy command. As a value use jQuery selector. Targeted element's value will be copied.</p>
+            <p class="demo">
+                <input type="submit" value="Copy the text field text!" data-clipboard-target="#input"/>
+                <br><br>
+                <input type="text" value="Text from input field" id="input"/>
+            </p>
+            <p class="try-it">
+                <span>You can try it here.</span>
+                <br>
+                <input type="text" />
+            </p>
+        </div>
+
+
+        <div class="example">
+            <h2>Raw code example</h2>
+            <p>Or you can just use jQuery selector to execute copy command on element's value/text.</p>
+            <p class="demo">
+                <pre>
+    $('.button').click(function(){
+        $(this).CopyToClipboard();
+    });
+                </pre>
+                <input type="submit" value="Copy this button's value!" class="button"/>
+                <script>
+                    $('.button').click(function(){
+                        $(this).CopyToClipboard();
+                    });
+                </script>
+            </p>
+            <p class="try-it">
+                <span>You can try it here.</span>
+                <br>
+                <input type="text" />
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; mmkyncl 2016, Github Project &middot; jQuery Copy to clipboard plugin
+    </div>
+</div>
+</body>
+</html>

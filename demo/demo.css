@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.wrapper{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    background: #efefef;
+    border: 1px solid #ddd;
+}
+
+.wrapper .header{
+    background: #1ab394;
+    color: white;
+    width: 100%;
+}
+
+.wrapper .header .brand-name{
+    font-size: 35px;
+    margin:0px;
+    padding:30px 50px 10px 50px;
+}
+
+.wrapper .header .slogan{
+    color:#eee;
+    padding:0px 60px;
+}
+
+.wrapper .header .menu{
+    margin-top:70px;
+    background: #148f76;
+    height: 40px;
+}
+
+.wrapper .header .menu li{
+    display: inline-block;
+    list-style: none;
+}
+
+.wrapper .header .menu li a{
+    color: white;
+    padding: 11px 15px;
+    display: block;
+    font-size:15px;
+    text-decoration: none;
+}
+
+.wrapper .header .menu li a:hover{
+    background: #127d67;
+}
+
+.wrapper .content{
+    padding:15px;
+}
+
+input[type=submit]{
+    background: #1ab394;
+    color:white;
+    border: 1px solid #148f76;
+    padding:4px 8px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+input[type=submit]:active{
+    background: #17a185;
+}
+
+input[type=text]{
+    border-radius: 4px;
+    width: 450px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-size:15px;
+    margin-top: 10px;
+}
+
+.footer{
+    text-align:center;
+    color: #333;
+}
