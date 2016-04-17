@@ -3,6 +3,8 @@ jQuery - Copy to clipboard Plugin
 
 jQuery Copy to clipboard plugin - copy any text to the user site's clipboard. Operates on the basis of creating hidden text field and executing "copy" command.
 
+You can see [a https://www.github.io/mmkyncl/jquery-copy-to-clipboard]DEMO Page[/a].
+
 
 ## Usage
 
