@@ -26,7 +26,7 @@ Be sure you have jQuery included in your website.
 
 Works on any kind of element.
 
-There are two ways to use this plugin.
+There are three ways to use this plugin.
 
 - 1. Apply CopyToClipboard plugin with a JS Code.
 
@@ -36,13 +36,13 @@ $(document).ready(function() {
 });
 ```
 
-- Add data-clipboard attribute to any HTML element, executes on click.
+- 2. Add data-clipboard attribute to any HTML element, executes on click.
 
 ```html
 <button data-clipboard-text="Text to copy.">Copy me!</button>
 ```
 
-- or with jQuery selector...
+- 3. or with jQuery selector...
 
 ```html
 <button data-clipboard-target=".element">Copy another element's value!</button>
