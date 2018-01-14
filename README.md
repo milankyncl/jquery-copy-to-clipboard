@@ -19,7 +19,7 @@ Be sure you have jQuery included in your website.
 ### 2. Include copy-to-clipboard script
 
 ```html
-<script type="text/javascript" src="/MYPATH/jquery.copy-to-clipboard.js"></script>
+<script type="text/javascript" src="http://milankyncl.github.io/jquery-copy-to-clipboard/jquery.copy-to-clipboard.js"></script>
 ```
 
 ### 3. Apply on any element
