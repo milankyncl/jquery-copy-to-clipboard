@@ -27,6 +27,7 @@ function CopyToClipboard( val ){
     hiddenClipboard.select();
     document.execCommand('copy');
     document.getSelection().removeAllRanges();
+    hiddenClipboard.remove();
 }
 
 $(function(){
