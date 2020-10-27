@@ -20,7 +20,7 @@ $.fn.CopyToClipboard = function() {
 function CopyToClipboard( val ){
     var hiddenClipboard = $('#_hiddenClipboard_');
     if(!hiddenClipboard.length){
-        $('body').append('<textarea style="position:absolute;top: -9999px;" id="_hiddenClipboard_"></textarea>');
+        $('body').append('<textarea readonly style="position:absolute;top: -9999px;" id="_hiddenClipboard_"></textarea>');
         hiddenClipboard = $('#_hiddenClipboard_');
     }
     hiddenClipboard.html(val);
